@@ -216,8 +216,8 @@ img {
 #logo {
 margin-left: 20px;
   margin-top: 10px;
-  width: 70px;
-  height: 50px;
+  width: 130px;
+  height: 80px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -227,7 +227,7 @@ margin-left: 20px;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
-background-color: rgb(39, 192, 60); }
+background-color: rgb(5, 4, 78); }
   #main-nav ul {
     display: flex; }
   #main-nav li {
@@ -426,7 +426,7 @@ background-color: rgb(39, 192, 60); }
   font-size: 4rem; }
 
 #main-footer {
-  background: rgb(13, 145, 42);
+  background: rgb(5, 4, 78);
   color: #fff;
   height: 7rem;
  
