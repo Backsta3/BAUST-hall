@@ -93,6 +93,7 @@ function Home() {
                 <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
                   <p
                     style={{
+                      fontSize: "13px",
                       color: "black",
                       fontWeight: "bold",
                       justifyContent: "center",
@@ -116,27 +117,19 @@ function Home() {
                     every month. In addition to this, we are surrounded by many
                     more facilities.
                   </p>
-                  <img
-                    style={{
-                      borderRadius: "2%",
-                      width: 560,
-                      height: 280,
-                      margin: 10,
-                      marginTop: 30,
-                    }}
-                    src={threeSixty}
-                    alt=""
-                  />
-                  <h5
-                    style={{
-                      color: "rgb(3, 35, 102)",
-                      fontWeight: "bold",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    Inside of a hall room
-                  </h5>
+                  <a href={threeSixty} target="_blank">
+                    <h3
+                      style={{
+                        marginTop: "10px",
+                        color: "rgb(5, 36, 121)",
+                        fontWeight: "bold",
+                        justifyContent: "center",
+                        alignItems: "center",
+                      }}
+                    >
+                      Explore the inside view of a hall room
+                    </h3>
+                  </a>
                   <a href={field} target="_blank">
                     <h2
                       style={{
